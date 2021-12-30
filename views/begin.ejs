@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Page</title>
+    <style>
+        .gameContent{
+            font-size: larger;
+            padding-top:150px ;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        button.home{
+            background-color: grey;
+            color: honeydew;
+            font-size: larger;
+            margin-top: 20px;
+        }
+        button.choice{
+            background-color: rgb(0, 102, 255);
+            color: honeydew;
+            font-size: larger;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="gameContent">
+        <h2>Your journey begins with a fork in the road</h2>
+        <div class="choices">
+            <a href="/adventure/right"><button class="choice">Choose right path</button></a>
+            <a href="/adventure/left"><button class="choice">Choose left path</button></a>
+        </div>
+        <a href="/"><button class="home">Go home</button></a>
+    </div>
+</body>
+</html>
